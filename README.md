@@ -1,4 +1,4 @@
-# Home-Lab Traffic Simulation: Attack and IDS
+# Home-Lab Traffic Simulation: Attack and EDS
 
 Created a home lab in Oracle VirtualBox with a NAT Network setup. This NAT network is meant to simulate an end user connecting to a public-facing web server with another user attempting to intercept packet transmission between the two devices. The lab consists of three Virtual Machines, two of which are loaded with a Window's 10 OS. These two VM's (Zues and Hermes) are meant to simulate the end user (Hermes) and the web server (Zues) they are attempting to communicate with. The third VM (Hera) is loaded with an up to date version of kali linux. Kali linux is a open source distribution of Linux that is preloaded with many tools that help with packet capture such as Wireshark. Additionally, Scapy was downloaded on the kali linux VM in order to write programs to intercept these packets from python alone.
 
